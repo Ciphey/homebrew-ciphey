@@ -7,6 +7,7 @@ class Ciphey < Formula
   sha256 "e39f483a2451bb3a67d7ef8cdaba7ad407537e050035299753d63896e9c5b8ff"
 
   depends_on "python@3.8"
+  depends_on "poetry"
 
   def install
     ENV.prepend_path "PATH", Formula["python@3.8"].opt_libexec/"bin"

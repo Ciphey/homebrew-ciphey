@@ -9,6 +9,6 @@ class Ciphey < Formula
   depends_on "python@3.8"
 
   def install
-    system "python3.8", "-m", "pip", "install", "ciphey"
+    system "python", "-m", "pip", "install", "ciphey==5.0.0rc10"
   end
 end
